@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.logo {
+    border-radius: 50%;
+}
+
+header, footer {
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    padding: 5px;
+}
+
+nav a:active, nav a:hover, nav a:visited, nav a:link {
+    text-decoration: none;
+    color: #000000;
+}
+
+nav a:hover {
+    font-weight: bold;
+    background-color: #cccccc;
+}
+
+footer {
+    font-size: 10px;
+    padding: 5px 0;
+}
